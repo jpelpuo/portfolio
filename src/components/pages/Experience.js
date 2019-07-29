@@ -67,7 +67,8 @@ class Experience extends Component {
                   image={vodafone}
                   title="Vodalympics Hackathon"
                   date="July, 2018"
-                  info="Hackathon held by Vodafone Ghana to build a chat-bot to assist customers with telecommunication issues.Built a chat-bot using DialogFlow framework and integrated it with telegram messenger"
+                  info="Hackathon held by Vodafone Ghana to build a chat-bot to assist customers with telecommunication issues."
+                  description="Built a chat-bot using DialogFlow framework and integrated it with telegram messenger."
                   techStack="DialogFlow"
                 />
               </div>

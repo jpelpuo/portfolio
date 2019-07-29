@@ -23,16 +23,32 @@ nav ul li a:hover{
     color : #ffffff !important;
 }
 
+#contact .icn-instagram{
+    color: #bc2a8d !important;
+}
+
 .icn-instagram:hover{
     color: #bc2a8d !important;
+}
+
+#contact .icn-fb{
+    color: #3b5998 !important;
 }
 
 .icn-fb:hover{
     color: #3b5998 !important;
 }
 
+#contact .icn-twitter{
+    color:  #00acee !important;
+}
+
 .icn-twitter:hover{
     color:  #00acee !important;
+}
+
+#contact .icn-linkedin{
+    color: #0077B5 !important;
 }
 
 .icn-linkedin:hover{

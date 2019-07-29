@@ -3,15 +3,17 @@ import InfoCard from "../InfoCard";
 import ug from "../../assets/ug-1.png";
 import achimota from "../../assets/achimota.png";
 import ListCard from "../ListCard";
+import resume from "../../assets/RESUME - JAMAL.pdf";
+import Download from "../Download";
 
 class About extends Component {
   state = {
-    interests : ["Programming", "Artificial Intelligence", "Science & Technology", "Music", "Cycling"]
+    interests : ["Programming", "Artificial Intelligence", "Web Development", "Music", "Cycling"]
   };
 
   render() {
     return (
-      <div className="container-fluid active" id="about" style={styles}>
+      <div className="container-fluid" id="about" style={styles}>
         <h3 className="text-center d-block py-3 font-weight-bolder">
           ABOUT ME
         </h3>
@@ -55,7 +57,7 @@ class About extends Component {
           <div className="col-lg-6 my-2">
             <div className="card">
               <div className="card-header border-0 text-center">
-                <span className="align-middle font-weight-bold">EDUCATION</span>
+                <span className="align-middle font-weight-bold">EDUCATION & RESUME</span>
               </div>
               <div className="card-body">
                 <InfoCard
@@ -72,6 +74,8 @@ class About extends Component {
                   info="General Science"
                   date="2012 - 2015"
                 />
+
+                <Download file={resume} title={"My RESUME"}/>
               </div>
               <br />
               <br />

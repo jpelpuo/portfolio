@@ -18,6 +18,7 @@ class InfoCard extends Component {
             <div className="col-lg-9 text-center text-lg-left">
               <h5 className="font-weight-bold">{title}</h5>
               {info ? <span><span className="small">{info}</span><br/></span> : <br/>}
+              {description ? <span><span className="small">{description}</span> <br/></span>: ""}
               {techStack ? (
                 <span>
                   <span><span className="font-weight-bold">{`Main technologies used: `}</span>{`${techStack}`}</span>
@@ -28,7 +29,6 @@ class InfoCard extends Component {
               )}
               <span className="small">{date}</span>
               <br />
-              {description ? <span>{description}</span> : ""}
             </div>
           </div>
         </div>
