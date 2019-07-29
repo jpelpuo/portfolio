@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
 body{
-    background-color: #F5F5F5 !important;
+    background-color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.spy{
+    position: relative !important;
+}
+
+nav ul li a{
+    color: #3b5998 !important;
+}
+
+nav ul li a:hover{
+    color: #ffffff !important;
+    background-color: #0077B5;
+}
+
+.icn-git:hover{
+    color : #ffffff !important;
+}
+
+.icn-instagram:hover{
+    color: #bc2a8d !important;
+}
+
+.icn-fb:hover{
+    color: #3b5998 !important;
+}
+
+.icn-twitter:hover{
+    color:  #00acee !important;
+}
+
+.icn-linkedin:hover{
+    color: #0077B5 !important;
+}
+
+.icn-gitlab:hover{
+    color:#E2432A !important;
 }

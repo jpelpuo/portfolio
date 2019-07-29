@@ -2,24 +2,33 @@ import React, { Component } from "react";
 
 class InfoCard extends Component {
   render() {
-    const { image, title, info, description, date } = this.props;
+    const { image, title, info, description, date, techStack } = this.props;
     return (
-      <div className="card shadow-sm m-2">
+      <div className="card p-1">
         <div className="card-body">
           <div className="row">
-            <div className="col-md-2 text-center text-md-left">
+            <div className="col-lg-3 text-center text-lg-left">
               <img
                 src={image}
                 alt={title}
-                className="rounded-circle"
+                className="rounded-circle float-lg-right"
                 style={styles.image}
               />
             </div>
-
-            <div className="col-md-8 text-center text-md-left">
-              <h5>{title}</h5>
-              <span className="small">{info}</span> <br />
+            <div className="col-lg-9 text-center text-lg-left">
+              <h5 className="font-weight-bold">{title}</h5>
+              {info ? <span><span className="small">{info}</span><br/></span> : <br/>}
+              {techStack ? (
+                <span>
+                  <span><span className="font-weight-bold">{`Main technologies used: `}</span>{`${techStack}`}</span>
+                  <br />
+                </span>
+              ) : (
+                ""
+              )}
               <span className="small">{date}</span>
+              <br />
+              {description ? <span>{description}</span> : ""}
             </div>
           </div>
         </div>
@@ -30,8 +39,8 @@ class InfoCard extends Component {
 
 const styles = {
   image: {
-    width: "80px",
-    height: "80px"
+    width: "85px",
+    height: "87.5px"
   }
 };
 
