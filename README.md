@@ -4,4 +4,4 @@
 
 It contains a summary of everything about me.
 
-Go to: `wwwww` to check it out.
+Go to: `jamal-pelpuo.surge.sh` to check it out.
