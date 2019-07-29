@@ -34,7 +34,7 @@ class Projects extends Component {
             <ProjectCard
               title="Student Record Management System"
               description="Implemented a system for managing and updating student records."
-              moreInfo="The system allowed for registering of courses, uploading anf checking of results"
+              moreInfo="The system allowed for registering of courses, uploading and checking of results"
               urlGit="https://github.com/jpelpuo/student-management-system-vb.net"
               tech="VB .Net, MySQL."
             />

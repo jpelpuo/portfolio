@@ -5,7 +5,7 @@ class Skills extends Component {
 
   state = {
     languages : ["JavaScript", "PHP", "Java", "Python"],
-    frameworks : ["React", "Slim Framework", "Bootstrap", `<br/>`],
+    frameworks : ["React", "Slim", "Bootstrap", `<br/>`],
     operatingSystems : ["Microsoft Windows", "Ubuntu", "MacOS", `<br/>`],
     technologies : ["Git", "MySQL", "Bash", `<br/>`],
     more : ["Support Vector Machine", `<br/>`, `<br/>`]

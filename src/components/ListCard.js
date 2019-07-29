@@ -6,7 +6,7 @@ class ListCard extends Component {
     return (
       <div className="card">
         <div className="card-body">
-          <h5 className="font-weight-bold">{title}</h5>
+          <hs className="font-weight-bold">{title}</hs>
           <ul className="list-group">
             <span className="ml-4">
                 {list.map(listItem => {
