@@ -5,7 +5,7 @@ class Download extends Component {
     const { file, title } = this.props;
     return (
       <div className="my-3 pb-1">
-        <a href={file} download className="btn btn-outline-primary">
+        <a href={file} download="JAMAL_RESUME.pdf" className="btn btn-outline-primary">
           {title}
         </a>
       </div>

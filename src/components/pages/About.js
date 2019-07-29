@@ -3,7 +3,7 @@ import InfoCard from "../InfoCard";
 import ug from "../../assets/ug-1.png";
 import achimota from "../../assets/achimota.png";
 import ListCard from "../ListCard";
-import resume from "../../assets/RESUME - JAMAL.pdf";
+import resume from "../../assets/JAMAL_PELPUO.pdf";
 import Download from "../Download";
 
 class About extends Component {
