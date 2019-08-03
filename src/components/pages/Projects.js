@@ -24,7 +24,7 @@ class Projects extends Component {
           <div className="col-lg-4 my-2 my-lg-1">
             <ProjectCard
               title="Heart Disease Risk Level Prediction using Machine Learning Techniques"
-              description="Built a simple machine learning model using Support Vector Machine (SVM) to aid in risk level prediction"
+              description="Built a model using Support Vector Machine (SVM) to aid in risk level prediction."
               tech="Python, JavaScript, MySQL, PHP, SVM"
               urlGit="https://github.com/jpelpuo/myheart"
             />
@@ -34,7 +34,7 @@ class Projects extends Component {
             <ProjectCard
               title="Student Record Management System"
               description="Implemented a system for managing and updating student records."
-              moreInfo="The system allowed for registering of courses, uploading and checking of results"
+              moreInfo="The system allowed for registering of courses, uploading and checking of results."
               urlGit="https://github.com/jpelpuo/student-management-system-vb.net"
               tech="VB .Net, MySQL."
             />

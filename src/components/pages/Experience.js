@@ -34,7 +34,7 @@ class Experience extends Component {
               <div className="col-lg-6 my-2">
                 <InfoCard
                   image={polymorph}
-                  title="Front-End Developer, Polymorph Labs (Ghana)"
+                  title="Front-End Developer, Polymorph Labs"
                   date="June, 2019 – present"
                   info="Designing and building of dashboards and front-end user interfaces."
                   techStack="JavaScript, React, Node.js & MongoDB."
@@ -54,7 +54,7 @@ class Experience extends Component {
               <div className="col-lg-6 my-2">
                 <InfoCard
                   image={acm}
-                  title="IT and Technical Support Volunteer, ACM COMPASS 2019"
+                  title="IT & Technical Support Volunteer, ACM COMPASS 2019"
                   date="3rd July to 5th July, 2019"
                   info="Provided technical support and ensured all presentations and sessions were done successfully at the second annual
                         Conference on Computing and Sustainable Societies (COMPASS) 2019 which was held in Accra, Ghana by the

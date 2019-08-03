@@ -40,11 +40,11 @@ class Skills extends Component {
               <div className="card-body">
                 <div className="row">
                   <div className="col-xl-6 my-2">
-                    <ListCard title="LANGUAGES" list={this.state.languages}/>
+                    <ListCard title="Languages" list={this.state.languages}/>
                   </div>
 
                   <div className="col-xl-6 my-2">
-                    <ListCard title="FRAMEWORKS" list={this.state.frameworks}/>
+                    <ListCard title="Frameworks" list={this.state.frameworks}/>
                   </div>
                 </div>
               </div>
@@ -80,11 +80,11 @@ class Skills extends Component {
               <div className="card-body">
                 <div className="row">
                   <div className="col-xl-6 my-2">
-                    <ListCard title="TECHNOLOGIES" list={this.state.technologies}/>
+                    <ListCard title="Technologies" list={this.state.technologies}/>
                   </div>
 
                   <div className="col-xl-6 my-2">
-                    <ListCard title="MORE" list={this.state.more}/>
+                    <ListCard title="More" list={this.state.more}/>
                   </div>
                 </div>
               </div>

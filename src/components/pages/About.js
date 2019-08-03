@@ -75,7 +75,7 @@ class About extends Component {
                   date="2012 - 2015"
                 />
 
-                <Download file={resume} title={"My RESUME"}/>
+                {/*<Download file={resume} title={"My RESUME"}/>*/}
               </div>
               <br />
               <br />
