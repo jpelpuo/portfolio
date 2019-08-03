@@ -18,9 +18,9 @@ class ContactCard extends Component {
               </h3>
             </div>
           </div>
-          {contactNumbers.map(number => {
+          {contactNumbers.map((number, index) => {
             return (
-              <div className="row">
+              <div className="row" key={index}>
                 <div className="col-12">
                   <span>{number}</span>
                 </div>

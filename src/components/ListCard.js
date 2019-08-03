@@ -6,14 +6,14 @@ class ListCard extends Component {
     return (
       <div className="card">
         <div className="card-body">
-          <hs className="font-weight-bold">{title}</hs>
-          <ul className="list-group">
+          <span className="font-weight-bold">{title}</span>
+          <ul className="list-group small">
             <span className="ml-4">
-                {list.map(listItem => {
+                {list.map((listItem, index )=> {
                     if(listItem !== "<br/>") {
-                        return <li key={listItem}>{listItem}</li>
+                        return <li key={index}>{listItem}</li>
                     }
-                    return <br/>
+                    return <br key={index}/>
                 })}
             </span>
           </ul>

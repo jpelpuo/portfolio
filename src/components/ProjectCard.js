@@ -37,7 +37,7 @@ class ProjectCard extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 my-1 text-center">
+            <div className="col-12 my-1 text-center small">
               <span>
                 <span className="text-center font-weight-bold p-2 mx-3">
                   Technologies Used

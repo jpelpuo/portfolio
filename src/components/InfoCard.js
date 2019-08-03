@@ -21,7 +21,7 @@ class InfoCard extends Component {
               {description ? <span><span className="small">{description}</span> <br/></span>: ""}
               {techStack ? (
                 <span>
-                  <span><span className="font-weight-bold">{`Main technologies used: `}</span>{`${techStack}`}</span>
+                  <span className="small"><span className="font-weight-bold">{`Main technologies used: `}</span>{`${techStack}`}</span>
                   <br />
                 </span>
               ) : (

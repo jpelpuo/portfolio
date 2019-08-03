@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 class Navigation extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light justify-content-center sticky-top">
+      <nav className="navbar navbar-expand-sm bg-light justify-content-center sticky-top border-bottom">
         <button
           className="navbar-toggler"
           type="button"

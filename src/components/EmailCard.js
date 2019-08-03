@@ -17,9 +17,9 @@ class EmailCard extends Component {
               </h3>
             </div>
           </div>
-          {emails.map(email => {
+          {emails.map((email, index) => {
             return (
-              <div className="row">
+              <div className="row" key={index}>
                 <div className="col-12">
                   <span>{email}</span>
                 </div>

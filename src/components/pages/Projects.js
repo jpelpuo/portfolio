@@ -23,10 +23,10 @@ class Projects extends Component {
         <div className="row my-2">
           <div className="col-lg-4 my-2 my-lg-1">
             <ProjectCard
-              title="Heart Disease Risk Level Prediction using Machine Learning Lechniques"
+              title="Heart Disease Risk Level Prediction using Machine Learning Techniques"
               description="Built a simple machine learning model using Support Vector Machine (SVM) to aid in risk level prediction"
               tech="Python, JavaScript, MySQL, PHP, SVM"
-              urlGit="https://github.com/jpelpuo/myheart-dashboard"
+              urlGit="https://github.com/jpelpuo/myheart"
             />
           </div>
 
