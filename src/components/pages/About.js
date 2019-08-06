@@ -60,22 +60,23 @@ class About extends Component {
                 <span className="align-middle font-weight-bold">EDUCATION & RESUME</span>
               </div>
               <div className="card-body">
-                <InfoCard
-                  image={ug}
-                  title="University of Ghana"
-                  info="BSc. Computer Science"
-                  date="September, 2015 - July, 2019"
-                />
+                <a href="https://www.ug.edu.gh/" className="text-decoration-none text-dark">
+                  <InfoCard
+                      image={ug}
+                      title="University of Ghana"
+                      info="BSc. Computer Science"
+                      date="September, 2015 - July, 2019"
+                  />
+                </a>
                 <br />
-
-                <InfoCard
-                  image={achimota}
-                  title="Achimota School"
-                  info="General Science"
-                  date="2012 - 2015"
-                />
-
-                {/*<Download file={resume} title={"My RESUME"}/>*/}
+                <a href="https://en.wikipedia.org/wiki/Achimota_School" className="text-decoration-none text-dark">
+                  <InfoCard
+                      image={achimota}
+                      title="Achimota School"
+                      info="General Science"
+                      date="2012 - 2015"
+                  />
+                </a>
               </div>
               <br />
               <br />
