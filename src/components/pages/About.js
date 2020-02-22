@@ -57,7 +57,7 @@ class About extends Component {
           <div className="col-lg-6 my-2">
             <div className="card">
               <div className="card-header border-0 text-center">
-                <span className="align-middle font-weight-bold">EDUCATION & RESUME</span>
+                <span className="align-middle font-weight-bold">EDUCATION</span>
               </div>
               <div className="card-body">
                 <a href="https://www.ug.edu.gh/" className="text-decoration-none text-dark">
